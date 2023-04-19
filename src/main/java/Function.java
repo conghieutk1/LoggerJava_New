@@ -81,7 +81,6 @@ public class Function implements IFunction {
     public void ChucNang4() {
         StringBuilder ngayGD;
         StringBuilder _sodu;
-
         _sodu = new StringBuilder(digitalBank.LaySoDu());
         int soduTK = Integer.parseInt(_sodu.toString());
         long sotienrut;
