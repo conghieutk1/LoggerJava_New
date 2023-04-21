@@ -44,7 +44,7 @@ public class DigitalBank implements IDigitalBank {
     public void ThucHienGD(String type, int stk, long sotiengd, double sodu, int vat) {
         System.setProperty("filename", "log1");
 
-        String log4jConfPath = "D:\\OneDrive - Hanoi University of Science and Technology\\Workspace\\JavaProject\\DigitalBank\\src\\main\\resources\\log4j.properties";
+        String log4jConfPath = "D:\\Workspace\\JavaProject\\DigitalBank\\src\\main\\resources\\log4j.properties";
         PropertyConfigurator.configure(log4jConfPath);
 
         sodu = sodu + sotiengd + vat;
@@ -70,7 +70,7 @@ public class DigitalBank implements IDigitalBank {
         //String sodu = "";
         try
         {
-            File file = new File("D:\\OneDrive - Hanoi University of Science and Technology\\Workspace\\JavaProject\\DigitalBank\\src\\main\\resources\\springtest.txt");    //creates a new file instance
+            File file = new File("D:\\Workspace\\JavaProject\\DigitalBank\\src\\main\\resources\\springtest.txt");    //creates a new file instance
             FileReader fr = new FileReader(file);   //reads the file
             BufferedReader br = new BufferedReader(fr);  //creates a buffering character input stream
             StringBuilder sb =new StringBuilder();    //constructs a string buffer with no characters StringBuffer
@@ -96,7 +96,7 @@ public class DigitalBank implements IDigitalBank {
 
         try
         {
-            File file = new File("D:\\OneDrive - Hanoi University of Science and Technology\\Workspace\\JavaProject\\DigitalBank\\src\\main\\resources\\springtest.txt");    //creates a new file instance
+            File file = new File("D:\\Workspace\\JavaProject\\DigitalBank\\src\\main\\resources\\springtest.txt");    //creates a new file instance
             FileReader fr = new FileReader(file);   //reads the file
             BufferedReader br = new BufferedReader(fr);  //creates a buffering character input stream
             // StringBuffer sb=new StringBuffer();    //constructs a string buffer with no characters
@@ -140,7 +140,7 @@ public class DigitalBank implements IDigitalBank {
         StringBuilder ngayGD = new StringBuilder();
         try
         {
-            File file = new File("D:\\OneDrive - Hanoi University of Science and Technology\\Workspace\\JavaProject\\DigitalBank\\src\\main\\resources\\springtest.txt");    //creates a new file instance
+            File file = new File("D:\\Workspace\\JavaProject\\DigitalBank\\src\\main\\resources\\springtest.txt");    //creates a new file instance
             FileReader fr = new FileReader(file);   //reads the file
             BufferedReader br = new BufferedReader(fr);  //creates a buffering character input stream
             // StringBuffer sb=new StringBuffer();    //constructs a string buffer with no characters
